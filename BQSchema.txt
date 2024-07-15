@@ -1,0 +1,118 @@
+[
+  {
+    "name": "app_token",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "data",
+    "type": "RECORD",
+    "mode": "NULLABLE",
+    "fields": [
+      {
+        "name": "action",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "company",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "id",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      },
+      {
+        "name": "hostname",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "pathname",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "step",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "title",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "user",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+          {
+            "name": "browser_language",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "email",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "last_seen",
+            "type": "TIMESTAMP",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "realm",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "sessions",
+            "type": "INTEGER",
+            "mode": "NULLABLE"
+          },
+          {
+            "name": "user_id",
+            "type": "STRING",
+            "mode": "NULLABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "environment",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "timestamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
